@@ -25,6 +25,7 @@ public class Main2Activity extends AppCompatActivity {
         }
 
         Spinner spinner = (Spinner) findViewById(R.id.spcountrylist);
+        // Creating adapter for spinner
         ArrayAdapter<String> dataAdapter = new ArrayAdapter<String>(this, android.R.layout.simple_spinner_item, country);
         spinner.setAdapter(dataAdapter);
         spinner.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {

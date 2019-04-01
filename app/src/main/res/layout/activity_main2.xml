@@ -6,4 +6,17 @@
     android:layout_height="match_parent"
     tools:context=".Main2Activity">
 
+
+    <Spinner
+        android:id="@+id/spcountrylist"
+        android:layout_width="395dp"
+        android:layout_height="36dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginLeft="32dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginRight="32dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 </android.support.constraint.ConstraintLayout>
